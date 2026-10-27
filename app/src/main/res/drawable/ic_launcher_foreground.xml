@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gamepad: light body, red D-pad (left side), cyan buttons (right side) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateY="-5">
+        <!-- body -->
+        <path
+            android:fillColor="#F2F2F5"
+            android:pathData="M38,40 H70 A14,14 0 0 1 70,68 H38 A14,14 0 0 1 38,40 Z" />
+        <!-- grips -->
+        <path
+            android:fillColor="#F2F2F5"
+            android:pathData="M28,62 H46 V72 A6,6 0 0 1 40,78 H34 A6,6 0 0 1 28,72 Z" />
+        <path
+            android:fillColor="#F2F2F5"
+            android:pathData="M62,62 H80 V72 A6,6 0 0 1 74,78 H68 A6,6 0 0 1 62,72 Z" />
+        <!-- D-pad -->
+        <path
+            android:fillColor="#E05A5A"
+            android:pathData="M38,47 H42 V52 H47 V56 H42 V61 H38 V56 H33 V52 H38 Z" />
+        <!-- buttons -->
+        <path
+            android:fillColor="#3CC8E6"
+            android:pathData="M66.8,47 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0 Z" />
+        <path
+            android:fillColor="#3CC8E6"
+            android:pathData="M59.8,54 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0 Z" />
+        <path
+            android:fillColor="#3CC8E6"
+            android:pathData="M73.8,54 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0 Z" />
+        <path
+            android:fillColor="#3CC8E6"
+            android:pathData="M66.8,61 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0 Z" />
+    </group>
+</vector>
